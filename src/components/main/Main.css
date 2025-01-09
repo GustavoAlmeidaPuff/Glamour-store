@@ -1,0 +1,128 @@
+.hero-section {
+    position: relative;
+    height: 70vh;
+    background-color: #fff8e1;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.hero-content {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #9c4221;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    color: #b45309;
+    margin-bottom: 2rem;
+}
+
+.explore-button {
+    background-color: #d97706;
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.explore-button:hover {
+    background-color: #f59e0b;
+}
+
+.featured-products {
+    padding: 4rem 0;
+    background-color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.featured-products h3 {
+    font-size: 1.875rem;
+    font-weight: 600;
+    text-align: center;
+    color: #9c4221;
+    margin-bottom: 3rem;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .products-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.product-card {
+    background-color: #fff8e1;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    width: 100%;
+    height: 16rem;
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 1rem;
+}
+
+.product-info h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #9c4221;
+}
+
+.product-info p {
+    color: #d97706;
+    margin-top: 0.5rem;
+}
+
+.about-section {
+    padding: 4rem 0;
+    background-color: #fff8e1;
+}
+
+.about-section h3 {
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: #9c4221;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.about-section p {
+    color: #b45309;
+    max-width: 42rem;
+    margin: 0 auto;
+    text-align: center;
+}

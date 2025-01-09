@@ -4,18 +4,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #ececec;
+    background-color: white;
     padding: 10px 20px;
     transition: background-color 0.3s;
     font-family: 'Roboto', sans-serif;
 }
 
-.header:hover {
-    background-color: #ffffff;
-}
-
 .logo {
-    color: gold;
+    color: #dc831a;
     font-size: 28px;
     font-weight: bold;
     transition: transform 0.3s;    
@@ -28,7 +24,7 @@
 
 
 .nav a {
-    color: gold;
+    color: #dc831a;
     margin-left: 20px;
     text-decoration: none;
     position: relative;
