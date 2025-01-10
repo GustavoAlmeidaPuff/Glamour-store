@@ -32,5 +32,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.4",
+    "@types/react-dom": "^19.0.2"
   }
 }
