@@ -1,7 +1,35 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Main.css';
 
+interface Product {
+    id: number;
+    name: string;
+    price: number;
+    image: string;
+}
+
 const Main = () => {
+    const [products, setProducts] = useState<Product[]>([
+        {
+            id: 1,
+            name: "Produto Elegante 1",
+            price: 299.99,
+            image: "https://placehold.co/400x300?text=produto 1"
+        },
+        {
+            id: 2,
+            name: "Produto Elegante 2",
+            price: 399.99,
+            image: "https://placehold.co/400x300?text=produto 2"
+        },
+        {
+            id: 3,
+            name: "Produto Elegante 3",
+            price: 499.99,
+            image: "https://placehold.co/400x300?text=produto 3"
+        }
+    ]);
+
     return (
         <main>
             <section className="hero-section">
@@ -20,16 +48,16 @@ const Main = () => {
                 <div className="container">
                     <h3>Destaques da Coleção</h3>
                     <div className="products-grid">
-                        {[1, 2, 3].map((item) => (
-                            <div key={item} className="product-card">
+                        {products.map((product) => (
+                            <div key={product.id} className="product-card">
                                 <img
-                                    src={`https://placehold.co/400x300?text=produto ${item}`}
-                                    alt={`Produto ${item}`}
+                                    src={product.image}
+                                    alt={product.name}
                                     className="product-image"
                                 />
                                 <div className="product-info">
-                                    <h4>Produto Elegante {item}</h4>
-                                    <p>R$ {(Math.random() * 500 + 100).toFixed(2)}</p>
+                                    <h4>{product.name}</h4>
+                                    <p>R$ {product.price.toFixed(2)}</p>
                                 </div>
                             </div>
                         ))}
