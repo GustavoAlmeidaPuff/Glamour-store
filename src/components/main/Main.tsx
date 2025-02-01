@@ -12,10 +12,7 @@ const Main = () => {
                 />
                 <div className="hero-content">
                     <h2>Elegância em Cada Detalhe</h2>
-                    <p>Descubra a nova coleção que vai transformar seu estilo</p>
-                    <button className="explore-button">
-                        Explorar Coleção
-                    </button>
+                    <p>Descubra a nova coleção que vai transformar seu estilo</p>s
                 </div>
             </section>
 
