@@ -12,7 +12,7 @@ const Main = () => {
                 />
                 <div className="hero-content">
                     <h2>Elegância em Cada Detalhe</h2>
-                    <p>Descubra a nova coleção que vai transformar seu estilo</p>s
+                    <p>Descubra a nova coleção que vai transformar seu estilo</p>
                 </div>
             </section>
 
