@@ -10,8 +10,8 @@ const Header = () => {
             <nav className="nav">
                 <a href="#inicio">Início</a>
                 <a href="#galeria">Galeria</a>
-                <a href="#contato">Contato</a>
                 <a href="#mapa">Onde?</a>
+                <a href="#contato">Contato</a>
             </nav>
         </header>
     );
