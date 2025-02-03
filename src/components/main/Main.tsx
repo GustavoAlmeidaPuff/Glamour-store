@@ -34,7 +34,7 @@ const Main = () => {
         <main>
             <section className="hero-section">
                 <img
-                    src="https://placehold.co/1080x1920"
+                    src="https://i.pinimg.com/736x/3e/4d/1c/3e4d1c62f6f60fd7fb2937bdaca582c9.jpg"
                     alt="Glamour Store Fashion"
                     className="hero-image"
                 />
