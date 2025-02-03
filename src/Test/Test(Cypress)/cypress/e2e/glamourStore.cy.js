@@ -14,7 +14,7 @@ describe('Testando a aplicação Glamour Store', () => {
 
   })
 
-  it.only('Validando itens de menu de navegação', () => {
+  it('Validando itens de menu de navegação', () => {
     cy.visit('http://localhost:3000/#contato')
     cy.get('[href="#inicio"]').click()
     cy.get('[href="#galeria"]').click()
