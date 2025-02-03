@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/header/Header.tsx';
 import Main from './components/main/Main.tsx';
 import Footer from './components/footer/Footer.tsx';
-import Admin from './pages/Admin.tsx';
+import NotFound from './pages/NotFound.tsx';
 import './App.css';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/admin" element={<Admin />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </div>
