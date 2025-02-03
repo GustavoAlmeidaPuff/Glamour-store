@@ -1,15 +1,15 @@
 .footer {
     background-color: #8B4513;
     color: white;
-    padding: 2rem 3rem;
+    padding: 2rem 1rem;
     text-align: center;
     font-size: 1.2rem;
 }
 
 .footer-content {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 1.5rem;
 }
 
@@ -22,10 +22,8 @@
 }
 
 .footer-section:first-child {
-    text-align: left;
+    text-align: center;
 }
-
-
 
 .footer-section h4 {
     font-size: 2.2rem;
@@ -46,7 +44,7 @@
 
 .social-links {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     gap: 1.5rem;
 }
 
@@ -71,20 +69,9 @@
     filter: brightness(0) invert(1);
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .footer-content {
-        flex-direction: column;
-        gap: 2rem;
-    }
-
-    .footer-section,
-    .footer-section:first-child,
-    .footer-section:last-child {
-        text-align: center;
-    }
-
-    .social-links {
-        justify-content: center;
-        gap: 1rem;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
