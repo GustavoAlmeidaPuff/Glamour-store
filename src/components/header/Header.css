@@ -17,6 +17,14 @@
     transition: transform 0.3s;    
 }
 
+.logo-image {
+    width: 85px;
+    height: 85px;
+    margin: -15px;
+    filter: drop-shadow(0px 0px 5px #dc831a);
+}
+
+
 .logo:hover {
     transform: scale(1.1);
     cursor: pointer;

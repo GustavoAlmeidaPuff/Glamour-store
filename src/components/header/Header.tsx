@@ -4,7 +4,9 @@ import './Header.css'; // Importando o CSS para estilização
 const Header = () => {
     return (
         <header className="header">
-            <div className="logo">Logo</div>
+            <div className="logo">
+                <img src="./logo.png" alt="Logo" className="logo-image"/>
+            </div>
             <nav className="nav">
                 <a href="#inicio">Início</a>
                 <a href="#galeria">Galeria</a>
