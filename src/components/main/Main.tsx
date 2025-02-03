@@ -32,7 +32,7 @@ const Main = () => {
 
     return (
         <main>
-            <section className="hero-section">
+            <section id="inicio" className="hero-section">
                 <img
                     src="https://i.pinimg.com/736x/3e/4d/1c/3e4d1c62f6f60fd7fb2937bdaca582c9.jpg"
                     alt="Glamour Store Fashion"
@@ -44,7 +44,7 @@ const Main = () => {
                 </div>
             </section>
 
-            <section className="featured-products">
+            <section id="galeria" className="featured-products">
                 <div className="container">
                     <h3>Destaques da Coleção</h3>
                     <div className="products-grid">
@@ -65,7 +65,7 @@ const Main = () => {
                 </div>
             </section>
 
-            <section className="map-section">
+            <section id="mapa" className="map-section">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3461.8876016556584!2d-50.776722!3d-29.577472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDM0JzM4LjkiUyA1MMKwNDYnMzYuMiJX!5e0!3m2!1spt-BR!2sbr!4v1650000000000!5m2!1spt-BR!2sbr"
                     width="100%"
@@ -77,7 +77,7 @@ const Main = () => {
                 ></iframe>
             </section>
 
-            <section className="about-section">
+            <section id="contato" className="about-section">
                 <div className="container">
                     <h3>Sobre a Glamour Store</h3>
                     <p>
