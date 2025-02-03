@@ -1,64 +1,67 @@
 # Glamour Store
 
-Bem-vindo ao Glamour Store, uma aplicação de e-commerce que oferece uma experiência de compra elegante e sofisticada. Este projeto foi desenvolvido utilizando React e é uma vitrine para a nova coleção de moda.
+Welcome to Glamour Store, a landing page designed to showcase the business of Glamour Store, a local shop in Igrejinha. This project was developed as part of a freelance job.
 
-## Índice
+## Table of Contents
 
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Instalação](#instalação)
-- [Scripts Disponíveis](#scripts-disponíveis)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Available Scripts](#available-scripts)
+- [Project Structure](#project-structure)
+- [Contribution](#contribution)
+- [License](#license)
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
-- **CSS**: Para estilização da aplicação.
-- **Fontes do Google**: Para tipografia.
+- **React**: JavaScript library for building user interfaces.
+- **CSS**: For styling the application.
+- **Google Fonts**: For typography.
+- **Cypress**: For end-to-end testing.
+- **Mocha**: For running tests.
+- **Chai**: For assertions in tests.
 
-## Instalação
+## Installation
 
-Para rodar o projeto localmente, siga os passos abaixo:
+To run the project locally, follow the steps below:
 
-1. Clone o repositório:
+1. Clone the repository:
    ```bash
    git clone https://github.com/seu-usuario/glamour-store.git
    cd glamour-store
    ```
 
-2. Instale as dependências:
+2. Install the dependencies:
    ```bash
    npm install
    ```
 
-3. Inicie a aplicação:
+3. Start the application:
    ```bash
    npm start
    ```
 
-A aplicação estará disponível em [http://localhost:3000](http://localhost:3000).
+The application will be available at [http://localhost:3000](http://localhost:3000).
 
-## Scripts Disponíveis
+## Available Scripts
 
-No diretório do projeto, você pode executar os seguintes comandos:
+In the project directory, you can run the following commands:
 
 ### `npm start`
 
-Executa a aplicação em modo de desenvolvimento. A página será recarregada automaticamente ao fazer alterações.
+Runs the application in development mode. The page will reload automatically when you make changes.
 
 ### `npm test`
 
-Executa os testes em modo interativo.
+Runs the tests in interactive mode.
 
 ### `npm run build`
 
-Cria uma versão otimizada da aplicação para produção na pasta `build`.
+Creates an optimized version of the application for production in the `build` folder.
 
 ### `npm run eject`
 
-Remove a configuração padrão do Create React App e permite personalizar a configuração do projeto.
+Removes the default configuration of Create React App and allows you to customize the project configuration.
 
-## Estrutura do Projeto
+## Project Structure
 
-A estrutura do projeto é a seguinte:
+The project structure is as follows:
